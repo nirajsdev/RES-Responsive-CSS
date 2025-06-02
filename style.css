@@ -1,0 +1,78 @@
+@media only screen and (max-width: 576px) {
+  .side { 
+    float: none;
+    width: 100%;
+    
+  }
+  .side .spacer:not(:first-child) {
+    display: none;
+  }
+  #search input[type="text"] {
+    width: calc(100% - 10px);
+  }
+
+  .content {
+    margin: 0 !important;
+    padding-inline: 20px;
+  }
+
+  #siteTable .thing {
+    padding: 0;
+    position: relative;
+  }
+
+  .entry {
+    margin: 0;
+    padding: 20px 0 0;
+  }
+
+  .entry .top-matter {
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  #siteTable .thing .title {
+    margin: 0;
+  }
+
+  .domain, .tagline {
+    font-size: 14px;
+  }
+
+  .expando-button {
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 40px;
+    height: 40px;
+    margin: 0;
+    background: #ccc;
+    border-radius: 50%;
+  }
+  .expando-button::before, .expando-button::after {
+    content: "";
+  }
+
+  .tagline {
+    width: 60%;
+  }
+
+  .entry .buttons {
+    display: flex;
+    justify-content: flex-end;
+    font-size: 14px;
+  }
+
+  .entry .buttons li:not(.first) {
+    display: none;
+  }
+
+  .res-expando-box {
+    width: 100%;
+    margin-top: 24px;
+  }
+
+  .res-media-image {
+    width: 100%;
+  }
+}
